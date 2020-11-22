@@ -3,6 +3,7 @@ import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
+// import uc from '../../images/uc-shop/pubg_uc.jpg'
 
 class Directory extends React.Component {
   constructor() {
@@ -11,25 +12,25 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+          title: 'Hats',
+          imageUrl: 'https://i.ibb.co/px2tCc3/hats.png',
           id: 1,
           linkUrl: 'hats'
         },
         {
-          title: 'jackets',
+          title: 'Free Fire Diamonds',
           imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
           linkUrl: ''
         },
         {
-          title: 'sneakers',
+          title: 'Gift Cards',
           imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
           linkUrl: ''
         },
         {
-          title: 'womens',
+          title: 'Play Store',
           imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
           id: 4,
